@@ -1,0 +1,70 @@
+.btn-load-more {
+  background-color: #101010;
+  border: 1px solid #424242;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1em auto;
+  padding: 10px 12px;
+  text-decoration: none;
+}
+.btn-load-more:active {
+  position: relative;
+  top: 1px;
+}
+.btn-load-more:hover {
+  background-color: #fff;
+  color: #101010;
+  text-decoration: underline;
+}
+.post {
+  margin: 0 0 2em 0;
+  width: 100%;
+}
+.post a {
+  color: #fff;
+  text-decoration: none;
+}
+.post h2 a {
+  color: #ffd700;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0.6em 0 0em 0;
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.9);
+}
+.post h4 {
+  background-color: #101010;
+  border: 1px solid #424242;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1em auto;
+  padding: 6px 10px;
+  text-decoration: none;
+  width: fit-content;
+}
+.post h4:hover {
+  background-color: #fff;
+  border: 1px solid #000;
+  color: #000;
+  text-decoration: underline;
+}
+.post img {
+  height: auto;
+  width: 100%;
+}
+.post p {
+  font-size: 1.2rem;
+  text-shadow: 0.1em 0.1em rgba(0, 0, 0, 0.9);
+}
+.posts {
+  margin: 0;
+  padding: 2em 1em;
+}
+main {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}

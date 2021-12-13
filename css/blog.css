@@ -1,0 +1,173 @@
+.blog {
+  padding: 0.6em;
+}
+.blog h1 {
+  color: #ffd700;
+  font-size: 3rem;
+  text-decoration: none;
+  text-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.9);
+}
+.blogPost img {
+  height: auto;
+  width: 100%;
+}
+.button {
+  background: none;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: auto;
+  text-shadow: 0.6vw 0.6vw rgba(0, 0, 0, 0.9);
+  transition: all 0.3s;
+  width: auto;
+}
+.button {
+  align-self: flex-end;
+  background: none;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: auto;
+  transition: all 0.3s;
+  width: auto;
+}
+.button:hover {
+  color: #ffd700;
+  text-decoration: line-through;
+  text-shadow: 0.6vw 0.6vw rgba(0, 0, 0, 0.9);
+}
+.modalClose {
+  float: right;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.modalClose:hover,
+.modalClose:focus {
+  color: #ffd700;
+  cursor: pointer;
+  text-decoration: none;
+}
+.comment {
+  margin-bottom: 1.5em;
+  padding: 1em;
+  position: relative;
+  width: auto;
+  word-wrap: normal;
+}
+.comment button,
+.button {
+  align-items: flex-end;
+}
+.comment button,
+.input input {
+  background: none;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  padding: auto;
+  text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.9);
+  transition: all 0.3s;
+  width: auto;
+}
+.comment button:hover,
+.input input:hover {
+  color: #ffd700;
+  text-decoration: line-through;
+  text-shadow: 0.1rem 0.1rem rgba(0, 0, 0, 0.9);
+}
+.commentBox {
+  align-content: flex-end;
+  background-color: #121212;
+  display: flex;
+  flex-direction: row;
+  margin: 0 1em;
+}
+.commentBox input:not(:last-child),
+textarea {
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  margin-bottom: 15px;
+  outline: 0;
+  padding: 5px;
+  transition: all 0.3s;
+  width: 100%;
+}
+.commentBox input:focus, textarea:focus {
+  border-color: #ffd700;
+  border-width: 2px;
+}
+.comments {
+  background-color: #121212;
+  margin: auto;
+  width: 100%;
+}
+.commentSection {
+  background-color: #121212;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1em;
+}
+.modal {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  height: 100%;
+  left: 0;
+  padding-top: 6em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.modalContentTarget {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: auto;
+  max-width: 980px;
+  padding: 1em;
+  width: fit-80%;
+}
+.modalContentTarget img {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.reply {
+  border-left-color: #212121;
+  border-left-style: solid;
+  margin: 1.5em 0 1.5em 1em;
+  padding-left: 0.5em;
+  width: auto;
+  word-wrap: normal;
+}
+.wp-block-image {
+  all: unset;
+}
+form {
+  border-bottom-style: solid;
+  border-color: #212121;
+  border-top-style: solid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin: 1.5em auto;
+  max-width: 420px;
+  padding: 1em 2em;
+}
