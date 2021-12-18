@@ -166,7 +166,13 @@
     filter: hue-rotate(360deg);
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
+  header{
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    height: 10em;
+  }
   header a h1 {
     color: #fff;
     font-size: 2.2rem;
@@ -185,6 +191,86 @@
     margin: auto;
     max-width: 768px;
   }
+  main{
+    top: 12em;
+  }
+  #active ~ .menu-btn {
+    display: none;
+  }
+  #active:checked ~ .menu-btn i:before {
+    content: '\f00d';
+  }
+  #active ~ .wrapper {
+    clip-path: circle(75%);
+    display: block;
+  }
+  .button-1 {
+    align-items: center;
+    background-color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    color: #212121;
+    cursor: pointer;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 1;
+    margin: auto auto 2em auto;
+    outline: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+  }
+  .button-1:hover {
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+  }
+  .glitched {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 0;
+  }
+  .glitched h1 {
+    margin: 10em 0 0 0;
+    line-height: 1em;
+  }
+  .glitched span {
+    display: none;
+  }
+  .linkList {
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    height: 40%;
+    justify-content: space-evenly;
+    margin: 7.5em auto;
+    top: auto;
+    width: 100%;
+    max-width: 1024px;
+  }
+  .wrapper {
+    background-color: black;
+    clip-path: circle(25px at calc(100% - 40px) 50px);
+    height: 1em;
+    left: 0;
+    position: fixed;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+    z-index: 5;
+  }
+  .wrapper a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+  }
+
 }
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -193,10 +279,10 @@
     animation-delay: -1ms !important;
     animation-duration: 1ms !important;
     animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
     transition-delay: 0s !important;
     transition-duration: 0s !important;
+    scroll-behavior: auto !important;
+    background-attachment: initial !important;
   }
 }
 body {
