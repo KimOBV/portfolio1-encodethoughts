@@ -62,3 +62,8 @@ h3 {
   margin: 1em auto 0.25em auto;
 }
 }
+@media (min-width: 769px){
+  main article {
+    margin-top: 8em;
+  }
+}

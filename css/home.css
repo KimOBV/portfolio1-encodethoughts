@@ -169,6 +169,9 @@
   section {
     padding: 0 10vw;
   }
+  main section:first-child{
+    margin-top: 12em;
+  }
 }
 body {
   touch-action: manipulation;

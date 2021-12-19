@@ -2,7 +2,7 @@ const loadPosts = (() => {
   const config = {
     api: 'https://kobv.net/pe1/wp-json/wp/v2/posts',
     startPage: 0,
-    postsPerPage: 10,
+    postsPerPage: 5,
   };
   const postContent = document.querySelector('.posts');
   const loadMoreButton = document.querySelector('#btn-load-more');

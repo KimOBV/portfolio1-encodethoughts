@@ -68,3 +68,8 @@ main {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 769px){
+  main .posts{
+    margin-top: 10em;
+  }
+}
